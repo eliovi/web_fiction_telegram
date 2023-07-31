@@ -2,7 +2,7 @@ name: run web_fic_update.py
 
 on:
   schedule:
-    - cron: '15 6,11,13 * * *' # Every 12 hours
+    - cron: '15 4,12,17 * * *' # Runs at 04:15, 12:15 and 17:15, UTC time
 
 jobs:
   build:
